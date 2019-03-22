@@ -1,0 +1,27 @@
+<html>
+<header><title>This is title</title>
+    <base href="/">
+    <link rel="stylesheet" type="text/css" href="/public/css/main.css">
+</header>
+<body>
+<div class ="col-lg-4">
+    <h1> Your search for : <%= data.userQuery %></h1>
+    
+    <% if(data.loggedIn){ %>
+        <h2> You are logged in as : <%=data.userName %> </h2>
+    <%}%>
+    <u1>
+        <!-- <li> <%= data.searchResult[0] %></li>
+        <li> <%= data.searchResult[1] %></li>
+        <li> <%= data.searchResult[2] %></li> -->
+        
+                <% data.searchResult.forEach(result =>{ %>
+                    <li> <%= result %> </li>
+                <% }); %>
+        
+        
+    </u1>
+</div>
+<script src="/public/js/example.js"></script>
+</body> 
+</html>

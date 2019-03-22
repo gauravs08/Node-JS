@@ -1,0 +1,43 @@
+<html>
+<header><title>This is title</title>
+    <base href="/">
+    <link rel="stylesheet" type="text/css" href="/public/css/main.css">
+</header>
+<body>
+    
+<h1>Hello HTML world</h1>
+<script src="/public/js/example.js"></script>
+
+<form action ="/" method= "POST" id ="form">
+<div class ="form-group">
+    <label for="email"> Email address:</label>
+    <input type="email" class="form-control" name ="email"></input>
+</div>
+<div class ="form-group">
+        <label for="email"> Password:</label>
+        <input type="password" class="form-control" name ="password"></input>
+</div>
+<button type ="submit" class ="btn btn-default">Submit</button>
+</form>
+<div class ="col-lg-4"></div>
+
+<script src ="https://code.jquery.com/jquery-3.3.1.min.js"  crossorigin="anonymous"></script>
+<script>
+$(document).ready(()=>{
+    $('#form').submit((e)=>{
+        e.preventDefault();
+        $.ajax({
+            url         : '/',
+            type        : 'post',
+            contentType : 'application/json',
+            data        : JSON.stringify($('#form').serializeArray()),
+            success     : (response) =>{
+                console.log('Successfully got the response ');
+                console.log(response);
+            }
+        });
+    });
+});
+</script>
+</body> 
+</html>
