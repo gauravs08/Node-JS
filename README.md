@@ -1,4 +1,4 @@
-[Nodejs-Tutorial] Installing Nodejs 
+**[Nodejs-Tutorial]** Installing Nodejs 
 
 Working With Modules The Events Module and EventEmitter Class 
 
@@ -14,7 +14,7 @@ Why you should use Streams
 
 Pipes and Pipe Chaining. (Readable,Writable and Transform Streams)
 
-[httpsModule]Creating a Http Server using the Http Module 
+**[httpsModule]** Creating a Http Server using the Http Module 
 
 Serving Static Files with Http and File System Module (html,json,image)
 
@@ -24,22 +24,22 @@ Installing Packages using Npm (Node Package Manager)
 
 Semantic Versioning
 
-[Expressjs-tutorial] Getting started with Express Web Framework
+**[Expressjs-tutorial]** Getting started with Express Web Framework
 
-[expressjs-userInputValidationJOI] Working with Express Http Get Request, Route Params and Query Strings 
-
-Serving Static Files with Express
-
-[ExpressJs-HttpPostJson] Http Post Request with Express and Body Parser Module
-
-Working with JSON Data with Express and the Body Parser Module
+**[expressjs-userInputValidationJOI]** Working with Express Http Get Request, Route Params and Query Strings 
 
 User Input Validation With Express And JOI
 
 User Input Validation with JOI Validating Nested Object and Arrays
 
-[expressjs-EJS-templets] Getting Started With EJS Templates With Express 
+Serving Static Files with Express
 
-[expressjs-middleware] How does MiddleWare Work and Creating Custom Middleware
+**[ExpressJs-HttpPostJson]** Http Post Request with Express and Body Parser Module
 
-[expressjs-router] Working With The Express Router
+Working with JSON Data with Express and the Body Parser Module
+
+**[expressjs-EJS-templets]** Getting Started With EJS Templates With Express 
+
+**[expressjs-middleware]** How does MiddleWare Work and Creating Custom Middleware
+
+**[expressjs-router]** Working With The Express Router
