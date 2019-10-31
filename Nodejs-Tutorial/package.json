@@ -9,6 +9,6 @@
   "author": "Gaurav Sharma",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.13"
   }
 }
